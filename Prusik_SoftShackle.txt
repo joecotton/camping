@@ -1,22 +1,66 @@
+Soft-link Prusik
+
+Intended for 1.75mm Zing-it/Lash-it spliceable cordage.
+
+To create a connection point for a tarp along a continuous ridgeline.
+
+== Description ==
+
+3 Primary Sections:
+  - Prusik Loop: For forming a prusik hitch around ridgeline
+  - Button Loop: To hold the button knot
+  - Soft Link: The soft-link or soft-shackle portion
+
+The button loop is formed by two brummel locks. One side of the button loop transitions to the prusik loop. The other side of the button loop transitions to a short bury of one line and the soft-link formed by the other line.
+
+The tail is thickened with a back-bury and tied with a simple double-overhand or figure-eight stopper knot such that the back-burn ends within the stopper knot. The goal is a sharp transition from the thin soft-link to a bulky stopper knot.
+
+The tail portion serves no function. A tail-less button knot would also work.
+
+== Specifications ==
 Prusik Loop - 4 inches (8 inches of line)
 Button Loop - 0.75 inches (1.5 inches of line)
 Button Bury - 1.5 inches
-Soft Shackle Length - [SL]
+Soft-Link Length - [SL]
 Double Overhand Stopper - 1.5 inches of line
 Tail - 0.5 inches
-Backbury - 2 inches
+Backbury - 2 inches (Stopper + Tail)
+Brummel Lock allowance - 0.25 inches each
+
+Algorithm:
+(2 x Prusik Loop) + (2 x Button Loop) + (Button Bury) + (Soft-link) + (2 x (Stopper Knot + Tail)) + (2 x Brummel allowance)
 
 Line Length:
+(8) + (1.5) + (1.5) + (SL) + (2 x (1.5 + 0.5)) + (2 x 0.25) => 15.5 + (SL)
 
-8 + 1.5 + (2+2) + (0.5+0.5) + 1.5 + (SL)
+Prusik Loop formed by brummel lock at points defined by:
 
-6" shackle
+First lock, first pass-through:
+(Button Bury) + (Button Loop)
 
-8+1.5+3+1+1.5+6 = 21 inches
+First lock, second pass-through:
+(Button Bury) + (Button Loop) + (2 x Prusik Loop) + (Brummel allowance)
 
-First brummel
-4+4+1.5 = 10.5 inches through 2.5 inches.
+Second lock, first pass-through:
+(Button Bury)
 
-Second brummel
-0.75 inches from end of first brummel.
+Second lock, second pass-through:
+(Button Bury) + (Button Loop) + (2 x Prusik Loop) + (Button Loop) + (2 x Brummel allowance)
+
+== Example  ==
+For a 6" shackle
+
+15.5 + 6 = 21.5 inches total line length
+
+First brummel, to create the prusik loop:
+(1.5) + (1.5) = 3 inch point
+(1.5) + (1.5) + (2 x 4) = 11 inch point
+
+Create a brummel lock at points 3 inches and 11 inches from one end of the line.
+
+Second brummel, to create the button loop:
+(1.5) = 1.5 inch point
+(1.5) + (1.5) + (2 x 4) + (1.5) + (2 x 0.25) = 13
+
+Create a brummel lock at points 1.5 inches and 13 inches from the end of the line. However, the first brummel lock makes measuring difficult, so just make this second brummel with an ad-hoc measurement of the button loop length.
 
